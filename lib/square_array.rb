@@ -4,8 +4,15 @@ def square_array(array)
   new_array = []
   
   while array[counter] do 
-    array[counter]**2 
+    
+    square = array[counter]**2 
+    square 
     counter += 1
+    
+    new_array.push(square)
+    
   end 
+  
+  new_array
   
 end
