@@ -7,7 +7,7 @@ def square_array(array)
     array[counter]**2 
     counter += 1
     
-    new_array.push
+    new_array.push(array[counter])
     
   end 
   
